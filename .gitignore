@@ -1,0 +1,23 @@
+# State pode conter segredos e é específico da máquina: nunca versionar
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.tfplan
+# Arquivos gerados pelos exercícios
+**/saudacao.txt
+**/agentes/
+**/*.json
+!**/.terraform.lock.hcl
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars.local
+
+# Arquivos gerados pelos exercícios (ex.: Ex. 1, 3, 5)
+**/agentes/
+**/*.txt
+**/*.json
